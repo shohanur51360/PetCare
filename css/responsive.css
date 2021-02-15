@@ -1,0 +1,641 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /*css code start*/
+.logo img {
+    width: 101px!important;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    margin: 0px 0px 0px 10px!important;
+}
+.header-left h3 {
+    font-size: 20px!important;
+}
+.header-left h1 {
+    font-size: 31px!important;
+    line-height: 58px!important;
+    margin-top: 25px!important;
+}
+.header-left h5 {
+	font-size: 15px!important;
+    
+}
+.header-left p {
+	font-size: 15px!important;
+}
+.header-section {
+    background-position: bottom!important;
+}
+.banner-left1 {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-left1 h1 {
+    font-size: 35px!important;
+    line-height: 54px!important;
+}
+.banner-right1 {
+    margin: 0px 0px 0px 0px!important;
+} 
+.banner-left2 {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-right2 {
+    margin: 0px 0px 0px 0px!important;
+} 
+.banner-right2 h1 {
+    font-size: 35px!important;
+    line-height: 54px!important;
+}
+.banner-left3 {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-left3 h1 {
+    font-size: 35px!important;
+    line-height: 54px!important;
+}
+.banner-right3 {
+    margin: 0px 0px 0px 0px!important;
+} 
+.expect-1 h1{
+	font-size: 35px!important;
+    line-height: 54px!important;
+}
+.divedier-1 {
+    width: 160px!important;
+}
+.divedier-2 {
+    width: 160px!important;
+}
+.divedier-3 {
+    width: 160px!important;
+}
+.divedier-4 {
+    width: 160px!important;
+}
+.divedier-5 {
+    width: 160px!important;
+}
+.apply h1 {
+    font-size: 29px !important;
+}
+.apply p {
+    font-size: 13px!important;
+    margin: 0px 0px 10px 0px!important;
+}
+.consulation h1 {
+	font-size: 29px !important;
+}
+.consulation p {
+    font-size: 13px!important;
+    margin: 0px 0px 10px 0px!important;
+}
+.begin h1 {
+    font-size: 29px !important;
+}
+.begin p{
+    font-size: 13px!important;
+    margin: 0px 0px 10px 0px!important;
+}
+.question h1{
+	font-size: 35px!important;
+    line-height: 54px!important;
+}
+.client-top h1{
+	font-size: 35px!important;
+    line-height: 54px!important;
+}
+.client-bottom {
+    width: 100%!important;
+}
+.client-left .wri {
+    margin-left: 47px!important;
+    margin-top: -130px!important;
+}
+.client-left .cus img {
+    width: 74% !important;
+    margin: 42px 0px 0px -67px !important;
+}
+.client-left .wri h4 {
+    margin: 29px 0px 17px -23px!important;
+    font-size: 10px!important;
+}
+.client-left .wri img {
+    width: 111px!important;
+}
+.client-left .wri h5 {
+    margin: 10px 0px 0px 0px!important;
+    font-size: 10px!important;
+}
+.client-right {
+    width: 100%!important;
+    margin: 65px 0px 0px 221px!important;
+}
+.client-right .wri h4 {
+    font-size: 10px!important;
+    margin-top: 109px!important;
+    margin-bottom: 17px!important;
+}
+.client-right .wri img {
+    width: 111px!important;
+}
+.client-right .wri h5 {
+    margin: 10px 0px 0px 0px!important;
+    font-size: 10px!important;
+}
+.client-right .cus img {
+    width: 74%!important;
+    margin: -27px 0px 0px -353px!important;
+}
+.sponser-section {
+    text-align: center!important;
+}
+.follow-left img {
+    margin: 0px 0px 0px 2px!important;
+}
+.team-1 h1{
+	font-size: 35px!important;
+    line-height: 54px!important;
+}
+.team-1 h2 {
+    font-size: 20px!important;
+    line-height: 38px!important;
+    margin-top: -42px!important;
+}
+.team-section {
+    background-position: bottom!important;
+    height: 831px!important;
+}
+.about-3 {
+    margin: 30px 0px 0px 16px!important;
+}
+.footer-right {
+    margin: 11px 0px 32px -80px!important;
+}
+.follow-right {
+    width: 109%!important;
+    margin: 0px 0px 0px -13px!important;
+    height: 461px!important;
+}
+.follow-right h1 {
+	font-size: 35px!important;
+    line-height: 54px!important;
+}
+.follow-right h4 {
+    margin: 0px 0px 50px 0px!important;
+    font-size: 14px!important;
+}
+.top {
+    margin: -91px 9px 0px 0px!important;
+}
+
+
+  /*css code end*/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /*css code start*/
+.logo img {
+    width: 117px!important;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    margin: 0px 0px 0px 10px!important;
+}
+.header-left h3 {
+    font-size: 23px!important;
+}
+.header-left h1 {
+    font-size: 41px!important;
+    line-height: 62px!important;
+    margin-top: 25px!important;
+}
+.header-left h5 {
+    font-size: 15px!important;
+    
+}
+.header-left p {
+    font-size: 16px!important;
+}
+.header-section {
+    background-position: bottom!important;
+}
+.banner-left1 {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-left1 h1 {
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.banner-right1 {
+    margin: 0px 0px 0px 0px!important;
+} 
+.banner-left2 {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-right2 {
+    margin: 0px 0px 0px 0px!important;
+} 
+.banner-right2 h1 {
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.banner-left3 {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-left3 h1 {
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.banner-right3 {
+    margin: 0px 0px 0px 0px!important;
+} 
+.expect-1 h1{
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.divedier-1 {
+    width: 160px!important;
+}
+.divedier-2 {
+    width: 160px!important;
+}
+.divedier-3 {
+    width: 160px!important;
+}
+.divedier-4 {
+    width: 160px!important;
+}
+.divedier-5 {
+    width: 160px!important;
+}
+.apply h1 {
+    font-size: 32px !important;
+}
+.apply p {
+    font-size: 15px!important;
+    margin: 0px 0px 10px 0px!important;
+}
+.consulation h1 {
+    font-size: 32px !important;
+}
+.consulation p {
+    font-size: 15px!important;
+    margin: 0px 0px 10px 0px!important;
+}
+.begin h1 {
+    font-size: 32px !important;
+}
+.begin p{
+    font-size: 15px!important;
+    margin: 0px 0px 10px 0px!important;
+}
+.question h1{
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.client-top h1{
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.client-bottom {
+    width: 100%!important;
+    height: 518px!important;
+}
+.client-left .wri {
+    margin-left: 47px!important;
+    margin-top: -130px!important;
+}
+.client-left .cus img {
+    width: 74% !important;
+    margin: 42px 0px 0px -67px !important;
+}
+.client-left .wri h4 {
+    margin: -16px 0px 17px 48px!important;
+    font-size: 13px!important;
+    line-height: 17px!important;
+}
+.client-left .wri img {
+    width: 117px!important;
+    margin-left: 47px!important;
+}
+.client-left .wri h5 {
+    margin: 10px 0px 0px 0px!important;
+    font-size: 15px!important;
+    margin-left: 47px!important;
+}
+.client-right {
+    width: 100%!important;
+    margin: 65px 0px 0px 221px!important;
+}
+.client-right .wri {
+    margin: -228px 0px 0px -381px!important;
+    text-align: right!important;
+}
+.client-right .wri h4 {
+    font-size: 13px!important;
+    line-height: 17px!important;
+    margin-top: 109px!important;
+    margin-bottom: 17px!important;
+}
+.client-right .wri img {
+    width: 117px!important;
+}
+.client-right .wri h5 {
+    margin: 10px 0px 0px 0px!important;
+     font-size: 15px!important;
+}
+.client-right .cus img {
+    width: 74%!important;
+    margin: -27px 0px 0px -266px!important;
+}
+.sponser-section {
+    text-align: center!important;
+}
+.follow-left img {
+    margin: 0px 0px 0px 0px!important;
+    width: 223px!important;
+}
+.team-1 h1{
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.team-1 h2 {
+    font-size: 20px!important;
+    line-height: 38px!important;
+    margin-top: -42px!important;
+}
+.team-section {
+    background-position: bottom!important;
+    height: 831px!important;
+}
+.about-3 {
+    margin: 30px 0px 0px 16px!important;
+}
+.footer-right {
+    margin: 44px 0px 43px -155px!important;
+}
+.follow-right {
+    width: 106%!important;
+    margin: 0px 0px 0px -13px!important;
+    height: 461px!important;
+}
+.follow-right h1 {
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.follow-right h4 {
+    margin: 0px 0px 50px 0px!important;
+    font-size: 16px!important;
+}
+.top {
+    margin: -91px 9px 0px 0px!important;
+}
+.sponser-section img {
+    width: 115px!important;
+
+}
+.footer-left h3 {
+    margin-left: 77px!important;
+}
+
+  /*css code end*/
+}
+
+/* 
+  ##Device = Tablets, Ipads
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+      /*css code start*/
+.logo img {
+    width: 165px!important;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    margin: 0px 0px 0px 10px!important;
+}
+.header-left h3 {
+    font-size: 33px!important;
+}
+.header-left h1 {
+    font-size: 50px!important;
+    line-height: 72px!important;
+    margin-top: 25px!important;
+}
+.header-left h5 {
+    font-size: 18px!important;
+    
+}
+.header-left p {
+    font-size: 18px!important;
+}
+.header-section {
+    background-position: bottom!important;
+    height: 895px!important;
+}
+.banner-left1 {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-left1 h1 {
+    font-size: 40px!important;
+    line-height: 54px!important;
+}
+.banner-right1 {
+    margin: 0px 0px 0px 0px!important;
+    height: 521px!important;
+}
+.banner-left2 {
+    margin: 0px 0px 0px 0px!important;
+    height: 521px!important;
+}
+.banner-right2 {
+    margin: 0px 0px 0px 0px!important;
+} 
+.banner-right2 h1 {
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.banner-left3 {
+    margin: 0px 0px 0px 0px!important;
+
+}
+.banner-left3 h1 {
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.banner-right3 {
+    margin: 0px 0px 0px 0px!important;
+       height: 631px!important;
+} 
+.expect-1 h1{
+    font-size: 40px!important;
+    line-height: 54px!important;
+}
+.divedier-1 {
+    width: 160px!important;
+}
+.divedier-2 {
+    width: 160px!important;
+}
+.divedier-3 {
+    width: 160px!important;
+}
+.divedier-4 {
+    width: 160px!important;
+}
+.divedier-5 {
+    width: 160px!important;
+}
+.apply h1 {
+    font-size: 29px !important;
+}
+.apply p {
+    font-size: 16px!important;
+    margin: 0px 0px 10px 0px!important;
+}
+.consulation h1 {
+    font-size: 29px !important;
+}
+.consulation p {
+    font-size: 16px!important;
+    margin: 0px 0px 10px 0px!important;
+}
+.begin h1 {
+    font-size: 29px !important;
+}
+.begin p{
+    font-size: 16px!important;
+    margin: 0px 0px 10px 0px!important;
+}
+.question h1{
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.client-top h1{
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.client-bottom {
+    width: 100%!important;
+    height: 250px!important;
+}
+.client-left .wri {
+    margin-left: 47px!important;
+    margin-top: -130px!important;
+}
+.client-left .cus img {
+    width: 74% !important;
+    margin: 42px 0px 0px -67px !important;
+}
+.client-left .wri h4 {
+    margin: -16px 0px 17px 48px!important;
+    font-size: 13px!important;
+    line-height: 17px!important;
+}
+.client-left .wri img {
+    width: 117px!important;
+    margin-left: 47px!important;
+}
+.client-left .wri h5 {
+    margin: 10px 0px 0px 0px!important;
+    font-size: 15px!important;
+    margin-left: 47px!important;
+}
+.client-right {
+    width: 100%!important;
+    margin: 65px 0px 0px 221px!important;
+}
+.client-right .wri {
+    margin: -228px 0px 0px -381px!important;
+    text-align: right!important;
+}
+.client-right .wri h4 {
+    font-size: 13px!important;
+    line-height: 17px!important;
+    margin-top: 109px!important;
+    margin-bottom: 17px!important;
+}
+.client-right .wri img {
+    width: 117px!important;
+}
+.client-right .wri h5 {
+    margin: 10px 0px 0px 0px!important;
+     font-size: 15px!important;
+}
+.client-right .cus img {
+    width: 74%!important;
+    margin: -27px 0px 0px -320px!important;
+}
+.sponser-section {
+    text-align: center!important;
+}
+.follow-left img {
+    margin: 0px 0px 0px 0px!important;
+    width: 239px!important;
+}
+.team-1 h1{
+    font-size: 40px!important;
+    line-height: 54px!important;
+}
+.team-1 h2 {
+    font-size: 22px!important;
+    line-height: 38px!important;
+    margin-top: -42px!important;
+}
+.team-1 h4 {
+    font-size: 22px!important;
+    line-height: 38px!important;
+}
+.team-section {
+    background-position: bottom!important;
+    height: 831px!important;
+}
+.about-3 {
+    margin: 30px 0px 0px 16px!important;
+}
+.footer-right {
+    margin: 0px 0px 43px -40px!important;
+}
+.follow-right {
+    width: 113%!important;
+    margin: -681px 0px 0px 473px!important;
+    height: 682px!important;
+    padding: 20px!important;
+}
+.follow-right h1 {
+    font-size: 38px!important;
+    line-height: 54px!important;
+}
+.follow-right h4 {
+    margin: 0px 0px 50px 0px!important;
+    font-size: 16px!important;
+}
+.top {
+    margin: -91px 9px 0px 0px!important;
+}
+.sponser-section img {
+    width: 115px!important;
+
+}
+.footer-left h3 {
+    margin-left: 0px!important;
+}
+.about-3 h1 {
+    margin-top: -23px!important;
+}
+
+
+  /*css code end*/
+}
+
+
+

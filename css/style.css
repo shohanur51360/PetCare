@@ -1,0 +1,963 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/********************************************
+    *** Global css code start ***
+*********************************************/
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/********************************************
+    *** Global css code end ***
+*********************************************/
+
+/********************************************
+    *** Header-section css code start ***
+*********************************************/
+.header-section{
+    width:100%;
+    margin: 0px 0px 0px 0px;
+    height: 790px;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8) ), url(../images/40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header-top {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.logo img{
+    width: 154px;
+}
+.bg-light {
+    background-color: transparent!important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #f9f5e5;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin: 0px 16px 0px 0px;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #f9f5e5;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin: 0px 0px 0px 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#73a188;
+}
+.btn-1 {
+    background: #16274c;
+    border: 2px solid#16274c;
+    font-size: 15px;
+    padding: 9px 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f1f6e6;
+}
+.btn-1:hover{
+   background: transparent;
+   border-radius: 5px;
+   transition: 0.3s;    
+   color: #f1f6e6;
+   border: 2px solid#73a188;
+}
+.header-bottom{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.header-left {
+    width: 100%;
+    margin: 114px 0px 0px 0px;
+}
+.header-left h3 {
+    font-family: 'Oswald', sans-serif;
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.header-left h1 {
+    font-family: 'Corben', cursive;
+    font-size: 59px;
+    line-height: 86px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+.header-left h5 {
+    font-family: lato;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    color: antiquewhite;
+    margin-bottom: 20px;
+}
+.header-left p {
+    font-family: lato;
+    font-size: 17px;
+    font-weight: 500;
+    color: antiquewhite;
+    margin-bottom: 30px;
+}
+.btn-2 {
+    background: transparent;
+    border: 2px solid#fff;
+    font-size: 15px;
+    padding: 9px 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-2:hover{
+   background: #02203a;
+   border: 2px solid#02203a;
+   border-radius: 5px;
+   transition: 0.3s;    
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #DC143C;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #CCC;
+    border: 0;
+    font-weight: 600;
+}
+/********************************************
+    *** Header-section css code end ***
+*********************************************/
+/********************************************
+    *** Banner-section css code start ***
+*********************************************/
+.banner-section {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0px;
+    background-attachment: fixed;
+}
+.banner-one{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.banner-left1 {
+    width: 100%;
+    margin: 0px 0px 0px 20px;
+    background: #73a188;
+    padding: 40px 25px;
+}
+.banner-left1 h1 {
+    font-family: 'Corben', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 39px;
+}
+.banner-left1 ul li{
+    list-style: none;
+}
+.banner-left1 ul li i{
+    color: #02203a;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 0px 28px 0px;
+}
+.banner-left1 p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: -46px 0px 14px 36px;
+}
+.b3 {
+    width: 100%;
+    margin: 63px 0px 0px 0px;
+}
+.btn-3 {
+    background: transparent;
+    border: 2px solid#fff;
+    font-size: 15px;
+    padding: 9px 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-3:hover{
+   background: #02203a;
+   border: 2px solid#02203a;
+   border-radius: 5px;
+   transition: 0.3s;    
+}
+.banner-right1{
+    width: 100%;
+    margin: 0px 0px 0px -10px;
+    background-image: url(../images/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 411px;
+}
+.banner-two{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.banner-left2 {
+    width: 100%;
+    margin: 0px 0px 0px 20px;
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 411px;
+}
+.banner-right2 {
+    width: 100%;
+    margin: 0px 0px 0px -10px;
+    background: #faf6e6;
+    padding: 59px 25px;
+}
+.banner-right2 h1 {
+    font-family: 'Corben', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: #16274c;
+    margin-bottom: 39px;
+}
+.banner-right2 ul li{
+    list-style: none;
+}
+.banner-right2 ul li i{
+    color: #74a188;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 0px 28px 0px;
+}
+.banner-right2 p {
+    color: #a2a79b;
+    font-size: 16px;
+    font-weight: 500;
+    margin: -46px 0px 14px 36px;
+}
+.b3 {
+    width: 100%;
+    margin: 63px 0px 0px 0px;
+}
+.btn-4 {
+    background: #16274c;
+    border: 2px solid#16274c;
+    font-size: 15px;
+    padding: 9px 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-4:hover{
+   background: transparent;
+   border-radius: 5px;
+   transition: 0.3s;    
+   color: #16274c;
+   border: 2px solid#16274c;
+}
+.banner-three{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.banner-left3 {
+    width: 100%;
+    margin: 0px 0px 0px 20px;
+    background: #80887d;
+    padding: 40px 25px;
+}
+.banner-left3 h1 {
+    font-family: 'Corben', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 39px;
+}
+.banner-left3 p {
+    color: #e4e2d3;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: lato;
+}
+.b3 {
+    width: 100%;
+    margin: 63px 0px 0px 0px;
+}
+.btn-3 {
+    background: transparent;
+    border: 2px solid#fff;
+    font-size: 15px;
+    padding: 9px 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-3:hover{
+   background: #02203a;
+   border: 2px solid#02203a;
+   border-radius: 5px;
+   transition: 0.3s;    
+}
+.banner-right3{
+    width: 100%;
+    margin: 0px 0px 0px -10px;
+    background-image: url(../images/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 421px;
+}
+/********************************************
+    *** Banner-section css code end ***
+*********************************************/
+/********************************************
+    *** Expect-section css code start ***
+*********************************************/
+.expect-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 60px 0px;
+    background-attachment: fixed;
+    background: #73a188;
+}
+.expect-1{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.expect-1 h1 {
+    font-family: 'Corben', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 39px;
+}
+.divedier-1 {
+    width: 320px;
+    background: whitesmoke;
+    height: 2px;
+    margin: 0px auto 90px;
+}
+.expect-2{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.apply{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.apply img {
+    margin: 0px 0px 41px 0px;
+    width: 141px;
+}
+.apply h1{
+    margin: 0px 0px 32px 0px;
+    font-family: 'Corben', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+
+}
+.apply p{
+    margin: 0px 0px 0px 0px;
+    color: #e4e2d3;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: lato;
+
+}
+.consulation{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.consulation img {
+    margin: 0px 0px 41px 0px;
+    width: 141px;
+}
+.consulation h1{
+    margin: 0px 0px 32px 0px;
+    font-family: 'Corben', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+
+}
+.consulation p{
+    margin: 0px 0px 0px 0px;
+    color: #e4e2d3;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: lato;
+
+}
+.begin{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.begin img {
+    margin: 0px 0px 41px 0px;
+    width: 141px;
+}
+.begin h1{
+    margin: 0px 0px 32px 0px;
+    font-family: 'Corben', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+
+}
+.begin p{
+    margin: 0px 0px 0px 0px;
+    color: #e4e2d3;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: lato;
+
+}
+.divedier-2 {
+    width: 80%;
+    background: whitesmoke;
+    height: 2px;
+    margin: 70px auto 40px;
+}
+.expect-3{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.question{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.question h1 {
+    margin: 0px 0px 15px 0px;
+    font-family: 'Corben', cursive;
+    font-size: 23px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.question p {
+    margin: 0px 0px 50px 0px;
+    color: #e4e2d3;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: lato;
+    letter-spacing: 1px;
+}
+.btn-5 {
+    background: transparent;
+    border: 2px solid#fff;
+    font-size: 15px;
+    padding: 9px 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-5:hover{
+   background: #02203a;
+   border: 2px solid#02203a;
+   border-radius: 5px;
+   transition: 0.3s;    
+}
+/********************************************
+    *** Expect-section css code end ***
+*********************************************/
+/********************************************
+    *** Client-section css code start ***
+*********************************************/
+.client-section {
+    width: 100%;
+    padding: 100px 0px 50px;
+    background: #fff;
+}
+.client-top{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.client-top h1 {
+    font-family: 'Corben', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: #16274c;
+    margin-bottom: 39px;
+}
+.divedier-3 {
+    width: 320px;
+    background: #16274c;
+    height: 2px;
+    margin: 0px auto 60px;
+}
+.client-bottom {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: url(../images/35.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 391px;
+}
+.client-left{
+    width: 100%;
+    margin: 0px 0px 0px 51px;
+}
+.client-left .cus{
+    width: 50%;
+    margin: 0px 0px 0px 0px;
+}
+.client-left .cus img {
+    width: 74%;
+    margin: 42px 0px 0px 0px;
+}
+.client-left .wri {
+    width: 100%;
+    margin: -206px 0px 0px 233px;
+}
+.client-left .wri h4 {
+    margin: 0px 0px 46px 0px;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.client-left .wri img{
+    margin: 0px 0px 0px 0px;
+}
+.client-left .wri h5 {
+    margin: 18px 0px 0px 0px;
+    color: #86827f;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.client-right{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.client-right .cus {
+    width: 50%;
+    margin: 0px 0px 0px 337px;
+}
+.client-right .cus img {
+    width: 74%;
+    margin: 42px 0px 0px 0px;
+}
+.client-right .wri {
+    width: 100%;
+    margin: -206px 0px 0px -303px;
+    text-align: right;
+}
+.client-right .wri h4 {
+    margin: 0px 0px 46px 0px;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.client-right .wri img{
+    margin: 0px 0px 0px 0px;
+}
+.client-right .wri h5 {
+    margin: 18px 0px 0px 0px;
+    color: #86827f;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sponser-section {
+    width: 100%;
+    margin: 33px 0px -33px 0px;
+}
+.sponser-section img{
+    width: 100px;
+}
+.sponser-section img:hover{
+box-shadow: 1px 10px 15px#ccc;
+}
+/********************************************
+    *** Client-section css code end ***
+*********************************************/
+/********************************************
+    *** Follow-section css code start ***
+*********************************************/
+.follow-section {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 36px;
+}
+.follow-left{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.follow-left img {
+    width: 284px;
+    margin: 0px 0px 0px -4px;
+    height: 227px;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.follow-right {
+    width: 117%;
+    margin: -454px 0px 0px 832px;
+    background: #16274c;
+    height: 454px;
+    text-align: center;
+}
+.follow-right h1 {
+    margin: 0px 0px 28px 0px;
+    font-family: 'Corben', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: whitesmoke;
+    padding: 55px 0px 0px;
+}
+.follow-right h4 {
+    margin: 0px 0px 50px 0px;
+    color: #e4e2d3;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: lato;
+    letter-spacing: 2px;
+    line-height: 31px;
+}
+.follow-social{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.follow-social ul li{
+    list-style: none;
+    display: inline-block;
+}
+.follow-social ul li a i {
+    color: #faf6e6;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 12px;
+}
+.follow-social ul li a i:hover{
+    color: #73a188;
+}
+/********************************************
+    *** Follow-section css code end ***
+*********************************************/
+/********************************************
+    *** Team-section css code start ***
+*********************************************/
+.team-section {
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/23.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+    height: 660px;
+}
+.team-1 {
+    width: 100%;
+    margin: 148px 0px 0px 0px;
+}
+.team-1 h1 {
+    font-family: 'Corben', cursive;
+    font-size: 40px;
+    line-height: 86px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
+.team-1 h2 {
+    font-family: lato;
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 500;
+    color: antiquewhite;
+    margin-bottom: 46px;
+    margin-top: -27px;
+}
+.team-1 h4 {
+    font-family: lato;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 500;
+    color: antiquewhite;
+    margin-bottom: 33px;
+}
+.team-1 h5 {
+    font-family: lato;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: antiquewhite;
+}
+.divedier-4 {
+    width: 280px;
+    background: #73a188;
+    height: 2px;
+    margin: 0px auto 90px;
+}
+/********************************************
+    *** Team-section css code end ***
+*********************************************/
+
+/********************************************
+    *** About-section css code start ***
+*********************************************/
+.about-section {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/38.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0px 21px;
+    background-attachment: fixed;
+}
+.about-top{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.about-1{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.about-1 a.nav-link.active {
+    color: #faf6e9;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.about-1 .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #f1efd7;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: lato;
+    line-height: 17px;
+}
+.about-1 .nav-link:hover{
+    color: #73a188;
+}
+.b6 {
+    margin-top: 15px;
+    margin-bottom: 39px;
+}
+.btn-6 {
+    background: transparent;
+    border: 2px solid#fff;
+    font-size: 15px;
+    padding: 9px 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-6:hover{
+   background: #02203a;
+   border: 2px solid#02203a;
+   border-radius: 5px;
+   transition: 0.3s;    
+}
+.btn-7 {
+    background: transparent;
+    border: 2px solid#fff;
+    font-size: 15px;
+    padding: 9px 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-7:hover{
+   background: #02203a;
+   border: 2px solid#02203a;
+   border-radius: 5px;
+   transition: 0.3s;    
+}
+.about-2 {
+    width: 100%;
+    margin: 0px 0px 0px 31px;
+}
+.about-2 h3 {
+    color: #faf6e9;
+    font-size: 17px;
+    margin: 35px 0px 8px;
+    font-weight: 600;
+    font-family: lato;
+}
+.about-2 h4{
+    color: #faf6e9;
+    font-size: 17px;
+    margin: 0px 0px 8px;
+    font-weight: 600;
+    font-family: lato;
+}
+.about-2 p{
+    color: #f1efd7;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: lato;
+}
+.about-2 p:hover{
+    color: #73a188;
+}
+.about-3 {
+    width: 100%;
+    margin: 0px 0px 0px 97px;
+}
+.about-3 h1 {
+    color: #faf6e9;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.about-3 .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #f1efd7;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: lato;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+.about-3 .nav-link:hover{
+    color: #73a188;
+}
+.divedier-5 {
+    width: 80%;
+    background: whitesmoke;
+    height: 2px;
+    margin: 55px auto 40px;
+}
+/********************************************
+    *** About-section css code end ***
+*********************************************/
+
+/********************************************
+    *** Bottom-section css code start ***
+*********************************************/
+.footer-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.footer-left{
+    width: 100%;
+    margin: 0px 0px 0px 15px;
+}
+.footer-left h3{
+    color: #f1efd7;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: lato;
+}
+.footer-right {
+    width: 100%;
+    margin: 0px 0px 0px -9px;
+    text-align: right;
+}
+.footer-right ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-right ul li a i {
+    color: #faf6e6;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 12px;
+}
+.footer-right ul li a i:hover{
+    color: #73a188;
+}
+/********************************************
+    *** Bottom-section css code end ***
+*********************************************/
+
+/**********************************************************
+    *** Footer-section css code html code end***
+**********************************************************/
+
+/*back to top css start */
+.top{
+    float: right;
+    margin: -80px 20px 0px 0px;
+}
+.back-to-top {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    background: transparent;
+    border: 0px;
+}
+.back-to-top:hover{
+    background: transparent;
+    border: 0px;
+    opacity: 0.7;
+}
+.btn-8 {
+    color: #fff;
+    background-color: transparent!important;
+    border-color:transparent !important;
+}
+.btn-8.focus, .btn-7:focus {
+    color: #fff;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.btn-8:hover {
+    color: #fff;
+    background-color:transparent !important;
+    border-color: transparent !important;
+}
+/*back to top css end */
+
+/*stickup plugin link here*/
+.isStuck{
+    left:0px;
+    width:100%;
+    background: rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+  width: 100%;
+  transition: 0.3s;
+
+}
